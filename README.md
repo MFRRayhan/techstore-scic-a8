@@ -1,36 +1,68 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# TechStore - Next.js E-commerce Application
 
-## Getting Started
+A simple yet professional e-commerce application built with Next.js 15 (App Router) and Express.js. This project features a modern UI, mock authentication, and a functional product management system.
 
-First, run the development server:
+## Features
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+- **Landing Page**: 7 distinct sections including Hero, Stats, Product Showcase, and Testimonials.
+- **Product Listing**: Fetch and display products from an Express API.
+- **Product Details**: Detailed view of each product.
+- **Authentication**: Cookie-based mock authentication (Email/Password).
+- **Protected Routes**: Middleware protection for proper access control.
+- **Add Item**: Protected form to add new products to the backend.
+- **Responsive Design**: Built with Tailwind CSS v4 for all devices.
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## Tech Stack
 
-You can start editing the page by modifying `app/page.js`. The page auto-updates as you edit the file.
+- **Frontend**: Next.js 15, React 19, Tailwind CSS 4.
+- **Backend**: Express.js, Node.js.
+- **Data**: JSON file storage (mock database).
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+## Submission Details
 
-## Learn More
+- **GitHub Repository**: [INSERT GITHUB LINK HERE]
+- **Live Site**: [INSERT VERCEL LINK HERE]
 
-To learn more about Next.js, take a look at the following resources:
+### Mock Credentials
+- **Email**: `admin@techstore.com`
+- **Password**: `password123`
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+---
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+## Project Structure
 
-## Deploy on Vercel
+- `src/app`: Next.js App Router pages and layouts.
+- `src/components`: Reusable UI components.
+- `src/actions`: Server Actions for form handling.
+- `src/utils`: Helper functions (Auth).
+- `src/middleware.js`: Edge middleware for route protection.
+- `backend`: Express server and data storage.
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+## Setup & Installation
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+1.  **Install Dependencies**
+    ```bash
+    npm install
+    ```
+
+2.  **Run Development Servers**
+    This command runs both the Next.js frontend (Proy: 3000) and Express backend (Port: 5000) concurrently.
+    ```bash
+    npm run dev:all
+    ```
+
+3.  **Access the App**
+    Open [http://localhost:3000](http://localhost:3000) in your browser.
+
+## Mock Credentials
+
+To use the protected features, log in with:
+
+- **Email**: `admin@techstore.com`
+- **Password**: `password123`
+
+## API Routes
+
+- `GET /api/items`: Get all items.
+- `GET /api/items/:id`: Get item by ID.
+- `POST /api/items`: Add a new item.

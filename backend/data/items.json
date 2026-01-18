@@ -1,0 +1,51 @@
+[
+  {
+    "id": 1,
+    "name": "Sony WH-1000XM5",
+    "description": "Industry-leading noise canceling headphones with Auto NC Optimizer.",
+    "price": 348,
+    "image": "https://images.unsplash.com/photo-1618366712010-f4ae9c647dcb?auto=format&fit=crop&q=80&w=1000"
+  },
+  {
+    "id": 2,
+    "name": "Apple MacBook Air M2",
+    "description": "Supercharged by M2 chip. 13.6-inch Liquid Retina display.",
+    "price": 1099,
+    "image": "https://images.unsplash.com/photo-1611186871348-b1ce696e52c9?auto=format&fit=crop&q=80&w=1000"
+  },
+  {
+    "id": 3,
+    "name": "Samsung Galaxy S23 Ultra",
+    "description": "Nightography camera, 200MP resolution, and built-in S Pen.",
+    "price": 1199.99,
+    "image": "https://images.unsplash.com/photo-1678911820864-e2c567c655d7?auto=format&fit=crop&q=80&w=1000"
+  },
+  {
+    "id": 4,
+    "name": "Logitech MX Master 3S",
+    "description": "Performance wireless mouse with 8K DPI tracking.",
+    "price": 99.99,
+    "image": "https://images.unsplash.com/photo-1739742473235-34a7bd9b8f87?w=500&auto=formatauto=format&fit=crop&q=80&w=1000"
+  },
+  {
+    "id": 5,
+    "name": "Keychron Q1 Pro",
+    "description": "QMK/VIA wireless custom mechanical keyboard.",
+    "price": 199,
+    "image": "https://images.unsplash.com/photo-1595225476474-87563907a212?auto=format&fit=crop&q=80&w=1000"
+  },
+  {
+    "id": 6,
+    "name": "Herman Miller Aeron Chair",
+    "description": "Ergonomic office chair with PostureFit SL.",
+    "price": 1250,
+    "image": "https://images.unsplash.com/photo-1505843490538-5133c6c7d0e1?auto=format&fit=crop&q=80&w=1000"
+  },
+  {
+    "id": 7,
+    "name": "Iphone with Aipod",
+    "price": 1200,
+    "description": "The iPhone and AirPods together represent Apple’s vision of a seamless, intelligent, and premium digital experience. Designed with precision and powered by cutting-edge technology, the iPhone delivers exceptional performance, stunning visuals, and industry-leading security.",
+    "image": "https://images.pexels.com/photos/788946/pexels-photo-788946.jpeg"
+  }
+]

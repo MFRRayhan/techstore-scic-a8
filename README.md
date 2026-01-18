@@ -20,8 +20,8 @@ A simple yet professional e-commerce application built with Next.js 15 (App Rout
 
 ## Submission Details
 
-- **GitHub Repository**: [INSERT GITHUB LINK HERE]
-- **Live Site**: [INSERT VERCEL LINK HERE]
+- **GitHub Repository**: https://github.com/MFRRayhan/techstore-scic-a8
+- **Live Site**:https://techstore-scic-a8.vercel.app/
 
 ### Mock Credentials
 - **Email**: `admin@techstore.com`

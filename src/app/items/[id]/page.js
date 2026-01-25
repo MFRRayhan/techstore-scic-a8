@@ -1,11 +1,14 @@
+import { getItemById } from '@/lib/items';
 import Link from 'next/link';
-import { getBaseUrl } from '@/utils/api';
 
 async function getItem(id) {
     try {
-        const res = await fetch(`${getBaseUrl()}/api/items/${id}`, { cache: 'no-store' });
-        if (!res.ok) return null;
-        return res.json();
+        const item = getItemById(id);
+        // Simulate async behavior if needed, or just return directly.
+        // Since getItemById is synchronous in lib/items.js, we can just return it.
+        // However, we'll keep the function signature async-like to match the original usage if desired,
+        // or simplify it. Here we just return the result.
+        return item || null;
     } catch (e) {
         return null;
     }

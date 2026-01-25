@@ -1,21 +1,10 @@
 import ItemCard from '@/components/ItemCard';
-import { getBaseUrl } from '@/utils/api';
+import { getAllItems } from '@/lib/items';
 
 async function getItems() {
-    try {
-        const res = await fetch(`${getBaseUrl()}/api/items`, {
-            cache: 'no-store' // Ensure fresh data
-        });
-
-        if (!res.ok) {
-            throw new Error('Failed to fetch items');
-        }
-
-        return res.json();
-    } catch (error) {
-        console.error(error);
-        return [];
-    }
+    // Direct call to data logic (Server Action / Library pattern)
+    // This avoids the network round-trip and VERCEL_URL issues
+    return getAllItems();
 }
 
 export default async function ItemsPage() {

@@ -45,3 +45,4 @@ next-env.d.ts
 # User Uploads
 backend/uploads/*
 !backend/uploads/.gitkeep
+.env*.local
